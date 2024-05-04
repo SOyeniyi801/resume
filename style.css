@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    flex: 1;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.bio {
+    margin-bottom: 30px;
+}
+
+.work-experience {
+    margin-bottom: 30px;
+}
+
+.skills {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.download-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6BAA75; /* Primary color */
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-button a:hover {
+    background-color: #124076; /* Dark blue */
+}
+
+.download-button a:active {
+    background-color: #25393F; /* Heading color */
+}
